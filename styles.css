@@ -1,0 +1,195 @@
+body{
+    background-color: #fff;
+    font-family: arial;
+}
+
+#title-bar-container{
+    width:100%;
+}
+
+#title{
+    width:58%;
+    margin: 0 auto;
+}
+
+#title>h3{
+    display:inline;
+    margin-right: 10px;
+}
+
+#event-container, #input-container{
+    width:35%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#event-container {
+    margin-top: 40px;
+}
+
+#add-event{
+    margin: 30 auto;
+}
+
+.event-button{
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+#pitch-container{
+    width:20%;
+    display:inline-block;
+    margin:0 auto;
+    margin-left: 20%;
+    margin-top: 40px;
+    
+}
+
+#table-button-container{
+    width:50%;
+    margin:0 auto;
+    margin-top: 40px;
+    display:inline-block;
+    vertical-align: top;
+}
+
+#myCanvas{
+    margin:0 auto;
+    display:block;
+    margin:auto;
+}
+
+#table-container{
+    width:40%;
+    overflow-y: scroll;
+    height:300px;
+    margin-top:10px;
+    display:inline;
+    float:left;
+    margin: 0 auto;
+    margin-left: 10%;
+}
+
+#data{
+    height:200px;
+    margin: 0 auto;
+}
+
+#button-container{
+    width:30%;
+    text-align: center;
+    margin-top: 15px;
+    margin: 0 auto;
+    display: inline;
+    float:right;
+    margin-right: 20%;
+}
+
+#export{
+    margin:0 auto;
+}
+
+
+
+
+#button-container>button{
+    margin-top:5px;
+}
+
+td{
+    text-align: center;
+}
+
+#myCanvas{
+  border: 1px solid grey;
+  background-color: #66aa06;
+}
+
+@media only screen and (max-width: 1600px) {
+    #pitch-container{
+        margin-left:20%;
+    }
+    
+    #table-button-container{
+        width: 50%;
+        display: inline-block;
+    }
+}
+
+
+@media only screen and (max-width: 1100px) {
+    #title{
+        width:80%;
+    }
+    #pitch-container{
+        margin-left: 10%;
+    }
+    
+    #table-button-container{
+        width:60%;
+    }
+    
+    #button-container{
+        width:30%;
+        float:left;
+        margin: 0 auto;
+    }
+    #table-container{
+        width:40%;
+    }
+    body{
+        font-size:14px;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    
+    #pitch-container{
+        display: block;
+        margin: 0;
+        padding-left: 25%;
+    }
+    #table-button-container{
+        display: block;
+        margin: 0 auto;
+        margin-top: 50px;
+    }
+
+@media only screen and (max-width: 800px) {
+    #title{
+        width:95%;
+    }
+    #event-container{
+        width: 95%;
+    }
+    #table-container{
+        width:100%;
+        margin: 0 auto;
+        height: 150px;
+    }
+    #button-container{
+        width:90%;
+        margin: 0 auto;
+        position: inherit;
+    }
+    
+ 
+    #event-container{
+        margin:5px 5px;
+    }
+    
+    .event-button{
+        margin: 2px;
+    }
+    #input-container{
+        margin: 2px auto;
+        text-align: center;
+        width: 90%;
+    }
+    
+    
+    @media only screen and (max-width: 500px) {
+        #pitch-container{
+            margin-left: 0px;
+        }
+    }
